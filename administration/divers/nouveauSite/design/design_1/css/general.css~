@@ -1,0 +1,237 @@
+/* */
+/*page*/
+
+body{
+height:100%;
+background: #25114b ;
+/
+	
+}
+/** Page **/
+
+#page{
+	position:relative;
+	left:0px;
+	right:0px;
+	width:auto;
+	min-width:960px;
+	min-height:800px;
+	height:auto;
+	overflow:hidden;
+}
+
+
+/** typogra **/
+
+h1 , h2 , h3{
+	margin:5px;
+	width:100%;
+	padding:5px;
+}
+
+h1{
+	font-size:5em;
+}
+
+h2{
+	font-size:4em;
+}
+
+h3{
+	font-size:3em;
+}
+
+body{
+	color:white;
+			
+}
+
+body a{
+	color:white;
+}
+
+
+@font-face {
+	font-family: 'HornswoggledNormal';
+	src: url('../font/hornswog-webfont.eot');
+	src: local('☺'), url('../font/hornswog-webfont.woff') format('woff'), url('../font/hornswog-webfont.ttf') format('truetype'), url('../font/hornswog-webfont.svg#webfontrBYxdkZv') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'KomikaDisplayRegular';
+	src: url('../font/komika_display-webfont.eot');
+	src: local('☺'), url('../font/komika_display-webfont.woff') format('woff'), url('../font/komika_display-webfont.ttf') format('truetype'), url('../font/komika_display-webfont.svg#webfont34jQcKTw') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: '20dbRegular';
+	src: url('../font/20db-webfont.eot');
+	src: local('☺'), url('../font/20db-webfont.woff') format('woff'), url('20db-webfont.ttf') format('truetype'), url('../font/20db-webfont.svg#webfontFMVAyrUM') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'MothproofScriptRegular';
+	src: url('../font/mothproof_script-webfont.eot');
+	src: local('☺'), url('../font/mothproof_script-webfont.woff') format('woff'), url('../font/mothproof_script-webfont.ttf') format('truetype'), url('mothproof_script-webfont.svg#webfontKXotIfVa') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'AirstreamRegular';
+	src: url('../font/airstream-webfont.eot');
+	src: local('☺'), url('../font/airstream-webfont.woff') format('woff'), url('../font/airstream-webfont.ttf') format('truetype'), url('../font/airstream-webfont.svg#webfontedVDyFr1') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'HelsinkiRegular';
+	src: url('../font/helsinki-webfont.eot');
+	src: local('☺'), url('../font/helsinki-webfont.woff') format('woff'), url('../font/helsinki-webfont.ttf') format('truetype'), url('../font/helsinki-webfont.svg#webfont7N3v51D8') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SFArchRivalRegular';
+	src: url('../font/sf_arch_rival-webfont.eot');
+	src: local('☺'), url('../font/sf_arch_rival-webfont.woff') format('woff'), url('../font/sf_arch_rival-webfont.ttf') format('truetype'), url('../font/sf_arch_rival-webfont.svg#webfont3PSLi6LL') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/********************************/
+/********* HEADER ***************/
+/********************************/
+
+header{
+	width:100%;
+	height:165px;
+
+
+}
+
+
+header figure.logo {
+
+	width:400px;
+	height:159px;
+	background:url(../img/logo.png) no-repeat;
+}
+
+/********************************/
+/********* NAV ***************/
+/********************************/
+
+nav{
+	position:relative;
+	left:7%;
+	height:35px;
+	width:90%
+	display:block;
+
+}
+
+nav ul {
+	position:relative;
+	display:block;blockheight:35px;
+	width:100%;
+	text-align:left;
+	
+}
+
+nav ul li{
+	position:relative;
+	bottom:-5px;
+	display:inline-block;
+	line-height:35px;
+	font-size:1.5em;
+	padding-left:20px;
+	padding-right:20px;
+	margin-right:5px;
+	background:#6E6778;
+	z-index:0;
+	
+	-moz-border-radius:10px 10px 0px 0px;
+	-webkit-border-radius:10px 10px 0px 0px;
+	border-radius:10px 10px 0px 0px;
+	
+	-moz-transition : all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition:all 0.5s;
+
+}
+
+nav ul li.bouton_menu_select , nav ul li:hover {
+	bottom:0px;
+	background:#201E23;
+	color:#253EA3;
+	z-index:3;
+}
+
+/********************************/
+/********* Section ***************/
+/********************************/
+
+section#content {
+	position:relative;
+	left:5%;
+	background:#201E23;
+	width:90%;
+	min-height:800px;	
+	
+	padding:10px;
+	
+	-moz-border-radius:20px 20px 0px 0px;
+	-webkit-border-radius:20px 20px 0px 0px;
+	border-radius:20px 20px 0px 0px;
+	
+	-moz-box-shadow:0px -10px 20px rgba(0,0,0,0.3) , 10px 0px 20px rgba(0,0,0,0.3), -10px 0px 20px rgba(0,0,0,0.3);
+	-webkit-box-shadow:0px 0px 10px rgba(0,0,0,1);
+	box-shadow:0px 0px 10px rgba(0,0,0,1);
+}
+
+section#content article{
+
+	
+
+}
+
+
+figure.gall{
+	text-align:center;
+
+
+
+}
+
+figure.gall img{
+	position:relative;
+	margin:5px;
+	max-width:15%;
+	max-height:15%;
+	border:solid white 3px;
+	opacity:0.8;
+	
+	-moz-transition : all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition:all 0.5s;
+}
+
+
+figure.gall img:hover{
+	position:relative;
+	opacity:1;
+	border:solid grey 3px;
+}
+
+
+

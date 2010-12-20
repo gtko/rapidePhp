@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : formCreation.xml
+    Created on : 2 décembre 2010, 10:21
+    Author     : user1
+    Description:
+        Purpose of the document follows.
+-->
+
+<template>
+
+    <form class='formDefault' name='formCreation'>
+
+        <input label="Nom Site" type='text' name='nomSite' >{(FORMCREATION_NOMSITE)nom de votre site(formCreation)}
+        <verification>
+            <regex regex="^[a-zA-Z0-9_]+$">
+                <erreur>Votre nom de site contient des caractère incorrect</erreur>
+                <valide>Votre nom de site est valide</valide>
+            </regex>
+			<existe file='REP_ROOT$!nomSite/'>
+				<erreur>Se nom de site est deja utiliser</erreur>
+                <valide>Votre nom de site est valide</valide>
+			</existe>
+        </verification>
+	</input>
+        <select label="langue" name='langueSite'>
+            <option value='fr'>Fr</option>
+            <option value='en'>En</option>
+            <option value='de'>De</option>
+            <option value='es'>Es</option>
+        </select>
+
+        <submit valeur="Envoyer"/>
+
+
+    </form>
+
+</template>

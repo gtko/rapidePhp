@@ -1,0 +1,6 @@
+
+<menu>
+    <entrer modules="accueil">Accueil</entrer>
+    <entrer modules="creation">Création</entrer>
+    <entrer modules="traduction">Traduction</entrer>
+</menu>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : connection.xml
+    Created on : 28 juin 2010, 01:52
+    Author     : gtko
+    Description:
+        Purpose of the document follows.
+-->
+
+
+
+<form css="form_connection" name="form_login" modules="" actions="rapide_login">
+    <connection base="" table="TABLE_MEMBRE" id_unique="id"/>
+
+    <input label="pseudo" name="pseudo" type="text" valeur="pseudo">
+        <verification type="existe" champ="pseudo" table="TABLE_MEMBRE">
+          <erreur>t un null</erreur>
+        </verification>
+    </input>
+
+    <input label="mot de passe:" name="mots_de_passe"  type="password" valeur="mots_de_passe">
+        <verification type="existe" champ_verif ='pseudo' champ="mots_de_passe" table="TABLE_MEMBRE">
+            <erreur>t un null</erreur>
+        </verification>
+    </input>
+    <input label="" type="submit" name="valider"  valeur="valider"/>
+</form>

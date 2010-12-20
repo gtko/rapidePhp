@@ -1,0 +1,150 @@
+<?php
+/**Objet permettant de Les fonctuion du framework , construire une structure vide,
+ * crée des modules , etc ...
+ *
+ * @author Ohanessian grégoire <gtux.prog@gmail.com>
+ * @version 10.11
+ *
+ */
+class Framework {
+	
+	
+
+	public function __construct()
+	{
+		require_once(REP_CONFIG_SITE."creationFram.php");
+	}
+
+	
+	public function newSite($site)
+	{
+		
+		/**script de creation de nouvelle structure propre**/
+		if(!file_exists(REP_ROOT.$site))
+		{
+			mkdir(REP_ROOT.$site);
+			$siteBase = REP_ROOT.$site."/";
+				
+			/**creation de abstract*/
+			mkdir($siteBase."abstract");		
+			/**creation de config*/
+			mkdir($siteBase."config");	
+			/**creation de design*/
+			mkdir($siteBase."design");
+			/**creation de design_1*/
+			mkdir($siteBase."design/design_1/");
+
+
+			/**creation de media*/
+			mkdir($siteBase."media");
+			/**creation de audio*/
+			mkdir($siteBase."media/audio/");
+			/**creation de video*/
+			mkdir($siteBase."media/video");
+			/**creation de image*/
+			mkdir($siteBase."media/image");
+			/**creation de menu*/
+			mkdir($siteBase."menu");
+			/**creation de module*/
+			mkdir($siteBase."module");			
+
+			/**on deplace le fichier module de abstract**/
+			copy(REP_DIVERS."nouveauSite/abstract/modules.php",$siteBase."abstract/modules.php");
+			/**creation des fichier de configuration**/
+			copy(REP_DIVERS."nouveauSite/config/core.php",$siteBase."config/core.php");
+			copy(REP_DIVERS."nouveauSite/config/database.php",$siteBase."config/database.php");
+			
+			$this->creationModule("Accueil" , $site);
+
+		}
+		else
+		{
+			//erreur site deja existant			
+		}				
+		
+
+
+
+	}
+
+
+	public function creationModule($module , $site)
+	{
+		if(file_exists(REP_ROOT.$site))
+		{
+			if(!file_exists(REP_ROOT.$site."/module/".strtolower($module)."/"))
+			{
+				/**on crée le premier modules vide**/
+				mkdir(REP_ROOT.$site."/module/".strtolower($module)."/");
+				$moduleRep = REP_ROOT.$site."/module/".strtolower($module)."/";
+			
+				$valeur  =  MODULE_VIDE;
+				$valeur  = $this->remplacerValeur("module",$valeur,$module);
+				$valeur  = $this->remplacerValeur("titre",$valeur,$module);
+				$valeur  = $this->remplacerValeur("page",$valeur,strtolower($module));
+				
+				file_put_contents($moduleRep.strtolower($module).".php",$valeur);
+				file_put_contents($moduleRep.strtolower($module).".page.php",MODULE_PAGE_VIDE);	
+			}
+			else
+			{
+				//erreur module existant;
+			}
+		}
+		else
+		{
+			//erreur site introuvable
+		}
+
+	}
+
+	public function creationDesign($design , $site)
+	{
+		if(file_exists(REP_ROOT.$site))
+		{
+			if(!file_exists(REP_ROOT.$site."/design/".strtolower($design)."/"))
+			{
+				/**on crée le premier modules vide**/
+				mkdir(REP_ROOT.$site."/design/".strtolower($design)."/");
+				
+				/**creation de css*/
+				mkdir($moduleRep."/css/");			
+				/**creation de img*/
+				mkdir($moduleRep."//");		
+
+				$designRep = REP_ROOT.$site."/design/".strtolower($design)."/";
+				$valeur  =  MODULE_VIDE;
+    			file_put_contents($designRep.strtolower($design).".php",$valeur);
+			
+			}
+			else
+			{
+				//erreur module existant;
+			}
+		}
+		else
+		{
+			//erreur site introuvable
+		}
+
+	}
+
+	 private function remplacerValeur($quoi , $valeur , $remplace)
+     {
+       
+            //pour les variable xml sql en php
+             if(preg_match_all('/\$'.$quoi.'/', $valeur , $tab))
+             {
+                 foreach($tab[0] as $clee => $value)
+                 {
+                     $valeur = str_replace($tab[0][$clee], $remplace,$valeur);
+     
+                 }
+             }
+            return $valeur;
+    }
+	
+
+
+}
+?>

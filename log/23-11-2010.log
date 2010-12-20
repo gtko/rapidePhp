@@ -1,0 +1,21 @@
+23-11-2010 20:53:44   erreur 24 => L'object require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = connection;  ip(127.0.0.1) //verbositer 3
+23-11-2010 20:54:44   erreur 24 => L'object require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = connection;  ip(127.0.0.1) //verbositer 3
+23-11-2010 20:54:45   erreur 24 => L'object require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = connection;  ip(127.0.0.1) //verbositer 3
+23-11-2010 20:56:09   erreur 24 => L'object require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = connection;  ip(127.0.0.1) //verbositer 3
+23-11-2010 20:56:10   erreur 24 => L'object require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = connection;  ip(127.0.0.1) //verbositer 3
+23-11-2010 20:56:10   erreur 24 => L'object require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = connection;  ip(127.0.0.1) //verbositer 3
+23-11-2010 20:56:11   erreur 24 => L'object require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = connection;  ip(127.0.0.1) //verbositer 3
+23-11-2010 20:57:11   erreur 24 => L'object require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = VARIABLE;  ip(127.0.0.1) //verbositer 3
+23-11-2010 20:57:12   erreur 24 => L'object require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = VARIABLE;  ip(127.0.0.1) //verbositer 3
+23-11-2010 20:57:25   erreur 25 => L'object ne peut avoir d'enfant :   object xml: variable  ip(127.0.0.1) //verbositer 3
+23-11-2010 20:57:27   erreur 25 => L'object ne peut avoir d'enfant :   object xml: variable  ip(127.0.0.1) //verbositer 3
+23-11-2010 20:57:28   erreur 25 => L'object ne peut avoir d'enfant :   object xml: variable  ip(127.0.0.1) //verbositer 3
+23-11-2010 22:01:27   erreur 5 => L'objet require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = securite;  ip(127.0.0.1) //verbositer 3
+23-11-2010 22:01:28   erreur 5 => L'objet require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = securite;  ip(127.0.0.1) //verbositer 3
+23-11-2010 22:01:29   erreur 5 => L'objet require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = securite;  ip(127.0.0.1) //verbositer 3
+23-11-2010 22:01:30   erreur 5 => L'objet require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = securite;  ip(127.0.0.1) //verbositer 3
+23-11-2010 22:22:04   erreur 5 => L'objet require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = passageDonnee;  ip(127.0.0.1) //verbositer 3
+23-11-2010 22:25:11   erreur 5 => L'objet require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = passageDonnee;  ip(127.0.0.1) //verbositer 3
+23-11-2010 22:36:52   erreur 5 => L'objet require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = passageDonnee;  ip(127.0.0.1) //verbositer 3
+23-11-2010 22:36:55   erreur 5 => L'objet require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = passageDonnee;  ip(127.0.0.1) //verbositer 3
+23-11-2010 22:36:56   erreur 5 => L'objet require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = passageDonnee;  ip(127.0.0.1) //verbositer 3

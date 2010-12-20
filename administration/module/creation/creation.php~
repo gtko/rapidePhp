@@ -1,0 +1,58 @@
+<?php
+
+class Creation extends Modules
+{
+
+
+    public function General(){
+
+        $this->var_page = "creation";
+        $this->var_titre= "Création";
+        $this->var_css = "creation/creation.css";
+
+        //creation du menu
+        $menu = new Menuv2();
+        $menu->var_menu = "menuCreation";
+        $this->contenu["menuPage"] = $menu->menu();
+	
+
+
+    }
+
+    public function defaults(){
+
+        $this->contenu["contenuPage"] = "Bonjour creation permet de crée une structure neuve , des modules dans un site";
+        $this->getMessage("Bienvenue sur la page d'accueil"); 
+
+    }
+    
+   
+    public function Objets(){
+
+        Core::libs("template");
+
+    }
+
+
+    public function nouveauSite()
+    {
+
+        $template = new Template("formCreation");
+        $this->contenu["contenuPage"] = $template->construire() ;
+	
+		if(Form::getValide("formCreation"))
+		{
+			Core::libs("Framework");
+			$valeurForm = Form::getForm("formCreation");
+			$newSite = new Framework();
+			$newSite->newSite($valeurForm["nomSite"]);		
+
+						
+
+		}
+
+    }
+
+
+}
+?>

@@ -1,0 +1,51 @@
+ <!ENTITY % racine "(lien* | image* | choix* | variable* | boucle* | conteneur* | sql* | clear*)*">
+ <!ENTITY % css "
+		class CDATA #IMPLIED
+		id CDATA #IMPLIED
+	">
+<!ELEMENT vignette %racine;>
+<!ATTLIST vignette %css;>
+
+<!ELEMENT sql %racine;>
+<!ATTLIST sql requete  CDATA #REQUIRED
+			  nom  CDATA #REQUIRED	
+		      nav CDATA #IMPLIED
+			  navnom CDATA #IMPLIED	
+				>
+
+<!ELEMENT lien %racine;>
+<!ATTLIST lien  modules  CDATA #IMPLIED    
+				actions  CDATA #IMPLIED
+				ancre  CDATA #IMPLIED
+				geta CDATA #IMPLIED
+				http CDATA #IMPLIED
+				title CDATA #IMPLIED
+				%css; >
+
+<!ELEMENT image EMPTY >
+<!ATTLIST image rep CDATA #REQUIRED 
+				ext CDATA #REQUIRED 
+ 				valeur CDATA #REQUIRED
+				vide CDATA #REQUIRED
+				alt CDATA #IMPLIED
+				title CDATA #IMPLIED   
+				%css;>
+
+<!ELEMENT variable ( #PCDATA )>
+<!ATTLIST variable %css; >
+ 
+<!ELEMENT choix %racine;>
+<!ATTLIST choix valeur CDATA #REQUIRED 
+				egal CDATA #REQUIRED >
+
+<!ELEMENT boucle %racine;>
+<!ATTLIST boucle valeur CDATA #REQUIRED >
+
+<!ELEMENT conteneur %racine;>
+<!ATTLIST conteneur %css; >
+
+
+
+
+
+

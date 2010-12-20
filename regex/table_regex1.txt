@@ -1,0 +1,17 @@
+// RAPIDE REGEX
+
+
+//titre à commentaire à regex
+
+nombreàSavoir si la regex ne contient que des nombresà^[0-9]+$
+lettre à Savoir si la regex ne contient que des lettres à ^[A-Za-z?! -]+$
+lettre_nombre à etre sur que le regex ne contient que des chiffres est lettres avec seulement (?!-_ ) à ^[a-zA-Z0-9 ]+$
+mini_6_caractere à etre sur d'avoir 6 caractere dans un mots de passe à ^.{6,}$
+maximun_255_caractere à etre sur de ne pas depasser 255 caractere à ^.{,255}$
+mail à savoir si la regex est un mail à ^([a-zA-Z0-9]+(([\.\-\_]?[a-zA-Z0-9]+)+)?)\@(([a-zA-Z0-9]+[\.\-\_])+[a-zA-Z]{2,4})$
+date à avoir une date valide française (DD/MM/YYYY OR DD/MM/YYYY HH:MM:SS) à ^(([0-2]\d|[3][0-1])\/([0]\d|[1][0-2])\/[2][0]\d{2})$|^(([0-2]\d|[3][0-1])\/([0]\d|[1][0-2])\/[2][0]\d{2}\s([0-1]\d|[2][0-3])\:[0-5]\d\:[0-5]\d)$
+
+telephone_es à avoir un numero de telephone espagnol valide à ^[0-9]{2,3}-? ?[0-9]{6,7}$
+telephone_fr à avoir un numero de telephone français valide 06.03.31.56.32 OR 0603315632 OR 06-03-31-56-32 à ^[0-9]{2}[.-]?[0-9]{2}[.-]?[0-9]{2}[.-]?[0-9]{2}[.-]?[0-9]{2}$
+
+obligatoire à avoir le champ remplit à ^.+$

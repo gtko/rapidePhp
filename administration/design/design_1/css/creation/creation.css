@@ -1,0 +1,15 @@
+
+
+section#content{
+    padding-top:35px;
+}
+
+nav#menuCreation{
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    background:#0a3a82;
+    color:white;
+    font-size:1em;
+}

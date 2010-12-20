@@ -1,0 +1,21 @@
+30-11-2010 18:28:04   erreur 28 => Requete impossible a effectuer :  Erreur sql : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1  ip(127.0.0.1) //verbositer 3
+30-11-2010 18:28:33   erreur 28 => Requete impossible a effectuer :  Erreur sql : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1  ip(127.0.0.1) //verbositer 3
+30-11-2010 18:28:39   erreur 28 => Requete impossible a effectuer :  Erreur sql : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"' at line 1  ip(127.0.0.1) //verbositer 3
+30-11-2010 18:59:35   erreur 26 => Impossible de recuperer la variable :   objet :sql ,function : getVariablePhp() , argument : personne  ip(127.0.0.1) //verbositer 3
+30-11-2010 18:59:53   erreur 26 => Impossible de recuperer la variable :   objet :sql ,function : getVariablePhp() , argument : pseudo  ip(127.0.0.1) //verbositer 3
+30-11-2010 18:59:54   erreur 26 => Impossible de recuperer la variable :   objet :sql ,function : getVariablePhp() , argument : pseudo  ip(127.0.0.1) //verbositer 3
+30-11-2010 19:01:02   erreur 26 => Impossible de recuperer la variable :   objet :sql ,function : getVariablePhp() , argument : pseudo  ip(127.0.0.1) //verbositer 3
+30-11-2010 20:07:37   erreur 26 => Impossible de recuperer la variable :   objet :sql ,function : getVariablePhp() , argument : TESTGTKO  ip(127.0.0.1) //verbositer 3
+30-11-2010 20:07:39   erreur 26 => Impossible de recuperer la variable :   objet :sql ,function : getVariablePhp() , argument : TESTGTKO  ip(127.0.0.1) //verbositer 3
+30-11-2010 20:07:41   erreur 26 => Impossible de recuperer la variable :   objet :sql ,function : getVariablePhp() , argument : TESTGTKO  ip(127.0.0.1) //verbositer 3
+30-11-2010 21:04:12   erreur 26 => Impossible de recuperer la variable :   objet :sql ,function : getVariablePhp() , argument : tpseudo  ip(127.0.0.1) //verbositer 3
+30-11-2010 21:04:16   erreur 26 => Impossible de recuperer la variable :   objet :sql ,function : getVariablePhp() , argument : tpseudo  ip(127.0.0.1) //verbositer 3
+30-11-2010 21:04:17   erreur 26 => Impossible de recuperer la variable :   objet :sql ,function : getVariablePhp() , argument : tpseudo  ip(127.0.0.1) //verbositer 3
+30-11-2010 21:34:01   erreur 24 => L'object require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = etat;  ip(127.0.0.1) //verbositer 3
+30-11-2010 21:34:32   erreur 24 => L'object require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = etat;  ip(127.0.0.1) //verbositer 3
+30-11-2010 21:35:27   erreur 24 => L'object require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = etat;  ip(127.0.0.1) //verbositer 3
+30-11-2010 21:35:28   erreur 24 => L'object require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = etat;  ip(127.0.0.1) //verbositer 3
+30-11-2010 21:35:29   erreur 24 => L'object require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = etat;  ip(127.0.0.1) //verbositer 3
+30-11-2010 21:35:30   erreur 24 => L'object require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = etat;  ip(127.0.0.1) //verbositer 3
+30-11-2010 22:26:56   erreur 30 => Status de Formulaire inconnu Formulaire :test  ip(127.0.0.1) //verbositer 3
+30-11-2010 22:26:57   erreur 30 => Status de Formulaire inconnu Formulaire :test  ip(127.0.0.1) //verbositer 3

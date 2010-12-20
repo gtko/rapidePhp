@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : formCreation.xml
+    Created on : 2 décembre 2010, 10:21
+    Author     : user1
+    Description:
+        Purpose of the document follows.
+-->
+
+<template>
+
+    <form class='formDefault' name='formCreationModule' >
+        <select label="Site" name='siteModule' >
+            <boucle nom="site" valeur="$site">
+                <option value='#site|dir'>#site|nom</option>
+            </boucle>
+        </select>
+        <input label="Nom Module" type='text' name='nomModule'>{(FORMCREATION_NOM_MODULE)nom de votre Module(formCreationModule)}
+        <verification>
+            <regex regex="^[a-zA-Z0-9_]+$">
+                <erreur>Votre nom de module contient des caractère incorrect</erreur>
+                <valide>Votre nom de module est valide</valide>
+            </regex>
+            <existe file='$!siteModule/module/$!nomModule/'>
+                <erreur>Se nom de module est deja utiliser</erreur>
+                <valide>Votre nom de module est valide</valide>
+            </existe>
+        </verification>
+	</input>
+
+        <submit valeur="Envoyer"/>
+    </form>
+
+</template>

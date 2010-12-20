@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : formCreation.xml
+    Created on : 2 décembre 2010, 10:21
+    Author     : user1
+    Description:
+        Purpose of the document follows.
+-->
+
+<template>
+
+    <form class='formDefault' name='formCreationLang' >
+        <select label="Site" name='siteLang' >
+            <boucle nom="site" valeur="$site">
+                <option value='#site|dir'>#site|nom</option>
+            </boucle>
+        </select>
+        <input label="Nom Langue" type='text' name='nomLang'>{(FORMCREATION_NOM_MODULE)nom de votre Module(formCreationModule)}
+        <verification>
+            <regex regex="^[a-z]{2}$">
+                <erreur>Votre nom de la langue contient des caractère incorrect , que des minuscules sur 2 lettres</erreur>
+                <valide>Votre nom de la langue est valide</valide>
+            </regex>
+            <existe file='$!siteLang/lang/$!nomLang.php'>
+                <erreur>Le nom de langue est deja utiliser</erreur>
+                <valide>Votre nom de langue est valide</valide>
+            </existe>
+        </verification>
+	</input>
+
+        <submit valeur="Envoyer"/>
+    </form>
+
+</template>

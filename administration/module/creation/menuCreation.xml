@@ -1,0 +1,5 @@
+<menu class="menu">
+    <entrer modules="creation" actions='nouveauSite'>{(NOUVEAU_SITE)Nouveau site(menuCreation)}</entrer>
+    <entrer modules="creation" actions='nouveauModule'>{(NOUVEAU_MODULE)Nouveau module(menuCreation)}</entrer>
+     <entrer modules="creation" actions='nouveauLang'>{(NOUVEAU_LANG)Nouvelle langue(menuCreation)}</entrer>
+</menu>

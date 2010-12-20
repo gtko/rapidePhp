@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : form_new_rep.xml
+    Created on : 28 juillet 2010, 09:37
+    Author     : gtko
+    Description:
+        Purpose of the document follows.
+-->
+
+<form css="form_rapidefile_new_rep" name="form_new_rep" modules="" actions="naviguation">
+    <connection base="" table="" id_unique=""/>
+
+    <input label="" name="name_rep" type="text" valeur="name_rep">
+      
+    </input>
+    <input label="" type="submit" name="creer"  valeur="Créer"/>
+</form>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : generer_affichage.xml
+    Created on : 27 juillet 2010, 16:56
+    Author     : gtko
+    Description:
+        Purpose of the document follows.
+-->
+
+
+<vignette id_css="gerer_explorer" >
+
+       <elements type="actions_img" modules="" actions="naviguation" src="REP_IMAGE_RAPIDEFILE" variable="lien" image="type" ext="png" class_css="image" vide='vide'/>
+       <choix egal='true' variable='suppr'>
+           <elements type="actions_img" modules="" actions="supprimer" src="REP_IMAGE_RAPIDEFILE" variable="lien" image="suppr_img" ext="png" class_css="image_suppr" vide='vide'/>
+       </choix>
+       <elements type="variable" variable="nom" class_css="nom"/>
+</vignette>
+

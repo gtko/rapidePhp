@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : commentaire.xml
+    Created on : 13 juillet 2010, 14:22
+    Author     : gtko
+    Description:
+        Purpose of the document follows.
+-->
+
+   <vignette id_css="liste_commentaire">
+        <elements type="actions_img" modules='art' actions='voir_artiste' qui='id_membre' src="REP_AVATAR"  variable="id_membre" ext="png" class_css="img_avatar" vide='default'/>
+       <elements type="variable" variable="pseudo" class_css="pseudo">{pseudo}</elements>
+       <elements type="variable" variable="date" class_css="date">{date} </elements>
+      <elements type="fichier" class_css="message" rep="REP_COMMENTAIRE" variable="id" format="comm" longueur=""/>
+   
+
+
+
+  </vignette>

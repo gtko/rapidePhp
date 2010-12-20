@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : ecrire_comm.xml
+    Created on : 13 juillet 2010, 16:30
+    Author     : gtko
+    Description:
+        Purpose of the document follows.
+-->
+
+<form css='vitrine_compte_form' name='formulaire_comm' modules='' actions='ecrire_comm'>
+<!-- balise obligatoire -->
+   <base></base>
+   <table>av_article</table>
+   <clee_unique>id_article</clee_unique>
+
+
+     <textarea label='Commentaire' name='new_commentaire' format='comm' type="fichier" rep='REP_COMMENTAIRE'  valeur='commentaire'>
+        <verification type="regex" regex=''>
+          <erreur name='regex' >ERREUR_REGEX_DESCRIPTION</erreur>
+        </verification>
+    </textarea>
+  
+    <input  name='valider' type='submit' verif='no_verif'  valeur='valider' />
+
+
+
+</form>

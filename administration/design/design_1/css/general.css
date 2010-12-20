@@ -1,0 +1,225 @@
+
+/***********************/
+/****** Header *********/
+/***********************/
+header{
+    width:100%;
+    height:150px;
+    background:black;
+    color:white;
+}
+
+header a{
+    color:white;
+}
+
+header div#logo{
+    width:25%;
+    font-size:4em;
+    line-height:150px;
+    padding-left:5%;
+    float:left;
+    
+}
+
+header div#logo span#version{
+    font-size:0.2em;
+    
+}
+
+header div#messageSite{
+    width:20%;
+    padding-top:25px;
+    padding-left:25px;
+    height:100px;
+    padding-left:5%;
+    padding-right:5%; 
+    float:right;   
+
+}
+
+/*********************/
+/****** Menu *********/
+/*********************/
+nav{
+    width:100%;
+    background:#0a3a82;
+    color:white;
+    font-size:1.2em;
+}
+
+nav a{
+    color:white;
+}
+
+nav ul{
+    display:block;
+    width:100%;
+}
+
+nav ul li{
+    float:left;
+    height:30px;
+    line-height:30px;
+}
+nav ul li a{
+   display:block;
+   padding-left:10px;
+   padding-right:10px;
+   height:30px;
+}
+
+nav ul li:hover{
+  background-color:#1161d9;
+
+}
+
+/************************/
+/****** Section *********/
+/************************/
+Section#content{
+    position:relative;
+    width:80%;
+    margin-top:20px;
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:20px;
+    padding-bottom:30px;
+    margin-left:5%;
+    margin-right:5%;
+    background-color:#353535;
+    color:white;
+    min-height:500px;
+}
+
+
+/************************************/
+/*********** Formulaire DEfaults******/
+/***********************************/
+
+
+ /** formulaire d'inscription**/
+
+
+ .formDefault .ligne{
+     position:relative;
+    height:30px;
+    text-align: left;
+    margin-bottom:10px;
+
+
+
+}
+
+ .formDefault .ligne label{
+    position:absolute;
+    left:0px;
+    line-height:30px;
+    width:100px;
+    z-index: 5;
+    color:white;
+    font-size:1em;
+    background-color: #263fa3;
+    text-align: center;
+    -moz-border-radius : 5px 0px  0px 5px;
+    -webkit-border-radius: 5px 0px  0px 5px;
+     border-radius: 5px 0px  0px 5px;
+
+
+     -webkit-box-shadow: 5px 0px 4px rgba(0,0,0,0.2);
+     -moz-box-shadow: 5px 0px  4px rgba(0,0,0,0.2);
+     box-shadow: 5px 0px  5px rgba(0,0,0,0.2);
+
+}
+
+
+ .formDefault .formx{
+    position:relative;
+    padding-left:100px;
+        -webkit-box-shadow: 0px 1px 4px #000;
+        -moz-box-shadow: 0px 1px  4px #000;
+        box-shadow: 0px 1px  4px #000;
+        display:inline-block;
+
+
+}
+
+  .formDefault  .ligne  input[type=text] ,.formDefault  .ligne  input[type=password] , .formDefault  .ligne  select, .formDefault  .ligne  input[type=file] {
+    height:30px;
+    width:200px;
+    -moz-border-radius : 0px  5px 5px 0px;
+    -webkit-border-radius:0px  5px 5px 0px;
+     border-radius:0px  5px 5px 0px;
+      -webkit-box-shadow:none;
+     -moz-box-shadow:none;
+     box-shadow:none;
+     padding-left:5px;
+         position:relative;
+    left:100px;
+        -webkit-box-shadow: 0px 1px 4px #000;
+        -moz-box-shadow: 0px 1px  4px #000;
+        box-shadow: 0px 1px  4px #000;
+        display:inline-block;
+
+}
+
+  .formDefault .ligne select{
+    height:30px;
+    width:200px;
+    text-align:center;
+    -moz-border-radius :0px  5px 5px 0px;
+    -webkit-border-radius: 0px  5px 5px 0px;
+     border-radius:0px  5px 5px 0px;
+       -webkit-box-shadow:none;
+     -moz-box-shadow:none;
+     box-shadow:none;
+}
+
+
+ .formDefault  .info{
+    position:relative;
+    margin-left:120px;
+    font-size:1em;
+}
+
+ /* .formDefault .ligne {
+    position:relative;
+     -webkit-box-shadow:none;
+     -moz-box-shadow:none;
+     box-shadow:none;
+}*/
+
+ .formDefault  .ligne  input[type=submit] {
+    position:relative;
+    left:150px;
+    padding-left:25px;
+    padding-right:25px;
+    -moz-border-radius :5px;
+    -webkit-border-radius: 5px;
+     border-radius:5px;
+    -webkit-box-shadow: 0px 1px 4px #000;
+    -moz-box-shadow: 0px 1px  4px #000;
+    box-shadow: 0px 1px  4px #000;
+}
+
+  .formDefault .ligne input[type=submit]:hover {
+    position:relative;
+    background-color: #7da326;
+
+}
+
+ .formDefault {
+    position:relative;
+    width:780px;
+    left:50%;
+    margin-left:-390px;
+    margin-top:50px;
+
+}
+
+/***affichage des erreur d'interface**/
+
+.erreurNotif
+{
+    color:red;
+}

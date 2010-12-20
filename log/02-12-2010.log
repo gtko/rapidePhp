@@ -1,0 +1,12 @@
+02-12-2010 11:03:50   erreur 31 => attribut manquant   attribut : regex  ip(192.168.1.77) //verbositer 3
+02-12-2010 11:03:52   erreur 31 => attribut manquant   attribut : regex  ip(192.168.1.77) //verbositer 3
+02-12-2010 11:04:13   erreur 31 => attribut manquant   attribut : regex  ip(192.168.1.77) //verbositer 3
+02-12-2010 11:04:14   erreur 31 => attribut manquant   attribut : regex  ip(192.168.1.77) //verbositer 3
+02-12-2010 11:04:15   erreur 31 => attribut manquant   attribut : regex  ip(192.168.1.77) //verbositer 3
+02-12-2010 11:04:15   erreur 31 => attribut manquant   attribut : regex  ip(192.168.1.77) //verbositer 3
+02-12-2010 11:04:15   erreur 31 => attribut manquant   attribut : regex  ip(192.168.1.77) //verbositer 3
+02-12-2010 11:04:15   erreur 31 => attribut manquant   attribut : regex  ip(192.168.1.77) //verbositer 3
+02-12-2010 11:04:16   erreur 31 => attribut manquant   attribut : regex  ip(192.168.1.77) //verbositer 3
+02-12-2010 11:04:16   erreur 31 => attribut manquant   attribut : regex  ip(192.168.1.77) //verbositer 3
+02-12-2010 11:04:23   erreur 31 => attribut manquant   attribut : regex  ip(192.168.1.77) //verbositer 3
+02-12-2010 11:40:00   erreur 5 => L'objet require est introuvable ou inexistant :   objet : Core ,  function : charger , arguments : qui = Framework;  ip(192.168.1.77) //verbositer 3

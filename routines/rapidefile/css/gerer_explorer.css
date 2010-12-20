@@ -1,0 +1,56 @@
+/* 
+    Document   : gerer_explorer.css
+    Created on : 27 juil. 2010, 18:29:35
+    Author     : gtko
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.gerer_explorer{
+    display:inline-block;
+    margin-left:10px;
+
+
+
+}
+
+
+.image_preview
+{
+    max-width:80%;
+    margin-left:10%;
+    margin-right:10%;
+   
+
+
+}
+
+
+.texte_preview{
+    width:100%;
+    min-height:300px;
+
+
+}
+
+.espace_blanc{
+    height:30px;
+    width:100%;
+}
+
+.barre_actions * {
+    float:left;
+    height:30px;
+    margin-left:10px;
+}
+
+.barre_actions .ajouter_fichier {
+    float:right;
+    height:30px;
+    margin-left:10px;
+}
